@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import DragAndDrop
 
 struct testDragAndDrop: View {
     var body: some View {
