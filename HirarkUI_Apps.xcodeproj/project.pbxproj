@@ -16,7 +16,6 @@
 		EFB37923288EAD5900ABD559 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFB37921288EAD5900ABD559 /* OFL.txt */; };
 		EFB37924288EAD5900ABD559 /* RampartOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB37922288EAD5900ABD559 /* RampartOne-Regular.ttf */; };
 		EFD84668288FE7430099F342 /* testDragAndDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD84667288FE7430099F342 /* testDragAndDrop.swift */; };
-		EFD8466B28911B690099F342 /* DragAndDrop in Frameworks */ = {isa = PBXBuildFile; productRef = EFD8466A28911B690099F342 /* DragAndDrop */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFD8466B28911B690099F342 /* DragAndDrop in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +101,6 @@
 			);
 			name = HirarkUI_Apps;
 			packageProductDependencies = (
-				EFD8466A28911B690099F342 /* DragAndDrop */,
 			);
 			productName = HirarkUI_Apps;
 			productReference = EF139DEE288C392D00F59EC8 /* HirarkUI_Apps.app */;
@@ -306,6 +303,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,6 +334,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -382,14 +381,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		EFD8466A28911B690099F342 /* DragAndDrop */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = EFD8466928911B690099F342 /* XCRemoteSwiftPackageReference "swiftui-drag-and-drop" */;
-			productName = DragAndDrop;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EF139DE6288C392D00F59EC8 /* Project object */;
 }

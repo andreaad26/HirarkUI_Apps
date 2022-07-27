@@ -18,7 +18,7 @@ struct ContentView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .padding()
-                
+            
             
             VStack{
                 Spacer()
@@ -27,30 +27,31 @@ struct ContentView: View {
                 
                 Spacer()
                 
-                Button {
-                    self.isShowingDetailView.toggle()
-                } label: {
-                    Text("Play")
+                Button("Play") {
+                    withAnimation {
+                        self.isShowingDetailView.toggle()
+                    }
                 }
                 .font(Font.custom("RampartOne-Regular", size: 40, relativeTo: .body))                .padding()
                 .padding(.horizontal, 148)
                 .foregroundColor(.black)
                 .background(RoundedRectangle(cornerRadius: 40).fill(Color("YellowHirarkui")))
-                .fullScreenCover(isPresented: $isShowingDetailView) {
-                    ChallengePage()
-                        .transition(AnyTransition.move(edge: .leading))
-                }
-               
-  
-                //button play (punya hada)
-//                NavigationLink(destination: ChallengePage().navigationBarHidden(true), isActive: $isShowingDetailView) { EmptyView() }
-//                                Button("Play") {
-//                                    self.isShowingDetailView = true
-//                                }.background(
-//                                    RoundedRectangle(cornerSize: CGSize(width: 20, height: 20))
-//                                        .fill())
                 
-                    
+                //                .fullScreenCover(isPresented: $isShowingDetailView) {
+                //                    ChallengePage()
+                //                        .transition(AnyTransition.move(edge: .leading))
+                //                }
+                
+                
+                //button play (punya hada)
+                //                NavigationLink(destination: ChallengePage().navigationBarHidden(true), isActive: $isShowingDetailView) { EmptyView() }
+                //                                Button("Play") {
+                //                                    self.isShowingDetailView = true
+                //                                }.background(
+                //                                    RoundedRectangle(cornerSize: CGSize(width: 20, height: 20))
+                //                                        .fill())
+                
+                
                 //collection button
                 Button {
                     print("hai") // navigasi ke page collection hrsnya
@@ -60,14 +61,15 @@ struct ContentView: View {
                 .font(Font.custom("RampartOne-Regular", size: 40, relativeTo: .body))                .padding()
                 .padding(.horizontal, 148)
                 .foregroundColor(Color("Fontcolor"))
-                                
+                
                 Spacer()
                 
-                }
-        }
+            }
 
+        }
+        .overlay(isShowingDetailView ? ChallengePage(isShowSheet: $isShowingDetailView.animation()) : nil)
         .ignoresSafeArea()
-            
+        
     }
 }
 
