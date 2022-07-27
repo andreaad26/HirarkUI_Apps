@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF139DF2288C392D00F59EC8 /* HirarkUI_AppsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF139DF1288C392D00F59EC8 /* HirarkUI_AppsApp.swift */; };
+		EF139DF4288C392D00F59EC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF139DF3288C392D00F59EC8 /* ContentView.swift */; };
+		EF139DF6288C392E00F59EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF139DF5288C392E00F59EC8 /* Assets.xcassets */; };
+		EF139DF9288C392E00F59EC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF139DF8288C392E00F59EC8 /* Preview Assets.xcassets */; };
+		EF559C42288C577D0053F3A7 /* ChallengePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF559C41288C577D0053F3A7 /* ChallengePage.swift */; };
+		EFB37920288D87F200ABD559 /* SizeScaleGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3791F288D87F200ABD559 /* SizeScaleGame.swift */; };
+		EFB37923288EAD5900ABD559 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFB37921288EAD5900ABD559 /* OFL.txt */; };
+		EFB37924288EAD5900ABD559 /* RampartOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB37922288EAD5900ABD559 /* RampartOne-Regular.ttf */; };
+		EFD84668288FE7430099F342 /* testDragAndDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD84667288FE7430099F342 /* testDragAndDrop.swift */; };
+		EFD8466B28911B690099F342 /* DragAndDrop in Frameworks */ = {isa = PBXBuildFile; productRef = EFD8466A28911B690099F342 /* DragAndDrop */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF139DEE288C392D00F59EC8 /* HirarkUI_Apps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HirarkUI_Apps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF139DF1288C392D00F59EC8 /* HirarkUI_AppsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HirarkUI_AppsApp.swift; sourceTree = "<group>"; };
+		EF139DF3288C392D00F59EC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF139DF5288C392E00F59EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF139DF8288C392E00F59EC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF559C41288C577D0053F3A7 /* ChallengePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengePage.swift; sourceTree = "<group>"; };
+		EFB3791F288D87F200ABD559 /* SizeScaleGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeScaleGame.swift; sourceTree = "<group>"; };
+		EFB37921288EAD5900ABD559 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		EFB37922288EAD5900ABD559 /* RampartOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RampartOne-Regular.ttf"; sourceTree = "<group>"; };
+		EFB37925288EAD8100ABD559 /* HirarkUI-Apps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "HirarkUI-Apps-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EFD84667288FE7430099F342 /* testDragAndDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testDragAndDrop.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF139DEB288C392D00F59EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD8466B28911B690099F342 /* DragAndDrop in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF139DE5288C392D00F59EC8 = {
+			isa = PBXGroup;
+			children = (
+				EFB37921288EAD5900ABD559 /* OFL.txt */,
+				EFB37922288EAD5900ABD559 /* RampartOne-Regular.ttf */,
+				EF139DF0288C392D00F59EC8 /* HirarkUI_Apps */,
+				EF139DEF288C392D00F59EC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF139DEF288C392D00F59EC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF139DEE288C392D00F59EC8 /* HirarkUI_Apps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF139DF0288C392D00F59EC8 /* HirarkUI_Apps */ = {
+			isa = PBXGroup;
+			children = (
+				EFB37925288EAD8100ABD559 /* HirarkUI-Apps-Info.plist */,
+				EF139DF1288C392D00F59EC8 /* HirarkUI_AppsApp.swift */,
+				EF139DF3288C392D00F59EC8 /* ContentView.swift */,
+				EF559C41288C577D0053F3A7 /* ChallengePage.swift */,
+				EFB3791F288D87F200ABD559 /* SizeScaleGame.swift */,
+				EFD84667288FE7430099F342 /* testDragAndDrop.swift */,
+				EF139DF5288C392E00F59EC8 /* Assets.xcassets */,
+				EF139DF7288C392E00F59EC8 /* Preview Content */,
+			);
+			path = HirarkUI_Apps;
+			sourceTree = "<group>";
+		};
+		EF139DF7288C392E00F59EC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF139DF8288C392E00F59EC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF139DED288C392D00F59EC8 /* HirarkUI_Apps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF139DFC288C392E00F59EC8 /* Build configuration list for PBXNativeTarget "HirarkUI_Apps" */;
+			buildPhases = (
+				EF139DEA288C392D00F59EC8 /* Sources */,
+				EF139DEB288C392D00F59EC8 /* Frameworks */,
+				EF139DEC288C392D00F59EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HirarkUI_Apps;
+			packageProductDependencies = (
+				EFD8466A28911B690099F342 /* DragAndDrop */,
+			);
+			productName = HirarkUI_Apps;
+			productReference = EF139DEE288C392D00F59EC8 /* HirarkUI_Apps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF139DE6288C392D00F59EC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EF139DED288C392D00F59EC8 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = EF139DE9288C392D00F59EC8 /* Build configuration list for PBXProject "HirarkUI_Apps" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF139DE5288C392D00F59EC8;
+			packageReferences = (
+				EFD8466928911B690099F342 /* XCRemoteSwiftPackageReference "swiftui-drag-and-drop" */,
+			);
+			productRefGroup = EF139DEF288C392D00F59EC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF139DED288C392D00F59EC8 /* HirarkUI_Apps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF139DEC288C392D00F59EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB37923288EAD5900ABD559 /* OFL.txt in Resources */,
+				EF139DF9288C392E00F59EC8 /* Preview Assets.xcassets in Resources */,
+				EFB37924288EAD5900ABD559 /* RampartOne-Regular.ttf in Resources */,
+				EF139DF6288C392E00F59EC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF139DEA288C392D00F59EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD84668288FE7430099F342 /* testDragAndDrop.swift in Sources */,
+				EF559C42288C577D0053F3A7 /* ChallengePage.swift in Sources */,
+				EF139DF4288C392D00F59EC8 /* ContentView.swift in Sources */,
+				EF139DF2288C392D00F59EC8 /* HirarkUI_AppsApp.swift in Sources */,
+				EFB37920288D87F200ABD559 /* SizeScaleGame.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EF139DFA288C392E00F59EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF139DFB288C392E00F59EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF139DFD288C392E00F59EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HirarkUI_Apps/Preview Content\"";
+				DEVELOPMENT_TEAM = 43G867H2GH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HirarkUI-Apps-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NC2.HirarkUI-Apps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF139DFE288C392E00F59EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HirarkUI_Apps/Preview Content\"";
+				DEVELOPMENT_TEAM = 43G867H2GH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HirarkUI-Apps-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NC2.HirarkUI-Apps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF139DE9288C392D00F59EC8 /* Build configuration list for PBXProject "HirarkUI_Apps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF139DFA288C392E00F59EC8 /* Debug */,
+				EF139DFB288C392E00F59EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF139DFC288C392E00F59EC8 /* Build configuration list for PBXNativeTarget "HirarkUI_Apps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF139DFD288C392E00F59EC8 /* Debug */,
+				EF139DFE288C392E00F59EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EFD8466928911B690099F342 /* XCRemoteSwiftPackageReference "swiftui-drag-and-drop" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hellojoelhuber/swiftui-drag-and-drop.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EFD8466A28911B690099F342 /* DragAndDrop */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFD8466928911B690099F342 /* XCRemoteSwiftPackageReference "swiftui-drag-and-drop" */;
+			productName = DragAndDrop;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EF139DE6288C392D00F59EC8 /* Project object */;
+}
